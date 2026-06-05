@@ -1,0 +1,20 @@
+[submodule "submodules/SmartLock-Dashboard"]
+	path = submodules/SmartLock-Dashboard
+	url = git@github.com:DeVinci-FabLab/SmartLock-Dashboard.git
+	branch = main
+[submodule "submodules/SmartLock-PCB"]
+	path = submodules/SmartLock-PCB
+	url = git@github.com:DeVinci-FabLab/SmartLock-PCB.git
+	branch = main
+[submodule "submodules/SmartLock-IHM"]
+	path = submodules/SmartLock-IHM
+	url = git@github.com:DeVinci-FabLab/SmartLock-IHM.git
+	branch = main
+[submodule "submodules/SmartLock-Reader"]
+	path = submodules/SmartLock-Reader
+	url = git@github.com:DeVinci-FabLab/SmartLock-Reader.git
+	branch = main
+[submodule "submodules/SmartLock-Authentication-Authorization"]
+	path = submodules/SmartLock-Authentication-Authorization
+	url = git@github.com:DeVinci-FabLab/SmartLock-Authentication-Authorization.git
+	branch = main
