@@ -1,0 +1,56 @@
+(kicad_sch (version 20211014) (generator chatgpt)
+  (sheet (number 1) (name "Sheet1") (tstamps 0)
+    (title_block
+      (title "Systeme Armoire Connectee")
+      (company "Projet Guilhem Henoux")
+    )
+
+    (symbol (lib_id "Processor:Raspberry_Pi_Zero_2W") (at 50 50)
+      (property "Reference" "U1" (at 0 0))
+    )
+
+    (symbol (lib_id "Display:Touchscreen_7inch") (at 120 50)
+      (property "Reference" "DS1" (at 0 0))
+    )
+
+    (symbol (lib_id "Memory:MicroSD_Socket") (at 80 80)
+      (property "Reference" "SD1" (at 0 0))
+    )
+
+    (symbol (lib_id "Power_Management:SKSM_V1_0") (at 50 100)
+      (property "Reference" "PM1" (at 0 0))
+    )
+
+    (symbol (lib_id "RFID:PN532") (at 150 80)
+      (property "Reference" "RF1" (at 0 0))
+    )
+
+    (symbol (lib_id "Actuator:Solenoid_Lock") (at 180 110)
+      (property "Reference" "L1" (at 0 0))
+    )
+
+    (symbol (lib_id "Sensor:Magnetic_Switch") (at 180 140)
+      (property "Reference" "S1" (at 0 0))
+    )
+
+    (symbol (lib_id "Battery:18650") (at 20 140)
+      (property "Reference" "BAT1" (at 0 0))
+    )
+
+    (symbol (lib_id "Converter:Boost_9_12V") (at 60 140)
+      (property "Reference" "PS1" (at 0 0))
+    )
+
+    (symbol (lib_id "Switch:SW_SPST") (at 20 170)
+      (property "Reference" "SW1" (at 0 0))
+    )
+
+    (symbol (lib_id "Fuse:Fuse") (at 60 170)
+      (property "Reference" "F1" (at 0 0))
+    )
+
+    (symbol (lib_id "Connector:Aviation_Connector") (at 100 170)
+      (property "Reference" "J1" (at 0 0))
+    )
+  )
+)

@@ -1,0 +1,743 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "35a09295-3418-44bf-8a68-576fe5d2a704")
+	(paper "A4")
+	(lib_symbols
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 135.89 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7751de66-040a-4286-a33d-7cd1685d7653")
+	)
+	(junction
+		(at 68.58 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bceeb72-9815-4ba2-9219-47a9781b0b65")
+	)
+	(junction
+		(at 215.9 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91c07c95-e0ea-41d6-913a-2ea9b21d4da1")
+	)
+	(junction
+		(at 147.32 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6cb137d-544a-4358-a0df-58e454cbba32")
+	)
+	(wire
+		(pts
+			(xy 147.32 124.46) (xy 147.32 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125444d1-dd88-48e9-8109-6d3746bc6e3f")
+	)
+	(wire
+		(pts
+			(xy 68.58 83.82) (xy 83.82 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b09484-2f1a-4b4b-b65d-5811616176ff")
+	)
+	(wire
+		(pts
+			(xy 147.32 110.49) (xy 170.18 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ce4d1e-c6e2-43e5-9c7a-011f8ec6bf88")
+	)
+	(wire
+		(pts
+			(xy 215.9 88.9) (xy 222.25 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2de7747c-5a88-471d-a3ce-1e39cbaba08f")
+	)
+	(wire
+		(pts
+			(xy 96.52 88.9) (xy 215.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d64ab56-033b-4db7-a352-b4ba4383b356")
+	)
+	(wire
+		(pts
+			(xy 135.89 91.44) (xy 135.89 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40cb4e42-d4c0-4e4c-9c30-7386cc925f25")
+	)
+	(wire
+		(pts
+			(xy 128.27 91.44) (xy 135.89 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46c84f43-2434-46eb-8640-a50b4ecfce10")
+	)
+	(wire
+		(pts
+			(xy 68.58 99.06) (xy 83.82 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ce61122-b225-43d4-ae42-81ba8e83e49f")
+	)
+	(wire
+		(pts
+			(xy 128.27 102.87) (xy 128.27 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8e8444-0388-43bf-adcc-615483cbf767")
+	)
+	(wire
+		(pts
+			(xy 182.88 114.3) (xy 215.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d930ae3-9a77-446d-a55f-557dbbe9027f")
+	)
+	(wire
+		(pts
+			(xy 68.58 83.82) (xy 68.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f4a86d-550c-461c-af3f-e9931aabf4bf")
+	)
+	(wire
+		(pts
+			(xy 215.9 114.3) (xy 215.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "975ad537-f067-47d4-bd60-f9370b923e1c")
+	)
+	(wire
+		(pts
+			(xy 72.39 91.44) (xy 68.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f1b7a07-262c-4d06-9396-ed7b5e1239df")
+	)
+	(wire
+		(pts
+			(xy 68.58 91.44) (xy 68.58 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4f07d11-a449-4c20-b820-0887bc90e15b")
+	)
+	(wire
+		(pts
+			(xy 149.86 124.46) (xy 147.32 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad193b0f-e363-4f5c-8c8c-bf74c1f9aa48")
+	)
+	(wire
+		(pts
+			(xy 140.97 106.68) (xy 140.97 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30a9a64-751e-4d47-9cde-bf0311d79ab2")
+	)
+	(wire
+		(pts
+			(xy 99.06 102.87) (xy 128.27 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a0b029-a7a7-4443-8791-564d82f809f7")
+	)
+	(wire
+		(pts
+			(xy 163.83 128.27) (xy 220.98 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdcac372-4918-405b-bf1d-9d17811baebc")
+	)
+	(wire
+		(pts
+			(xy 135.89 91.44) (xy 147.32 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dce0e19e-93cc-432e-8bff-462f58171cb7")
+	)
+	(wire
+		(pts
+			(xy 147.32 91.44) (xy 147.32 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3cf7a0-7f48-4991-b1a9-e35e775df22e")
+	)
+	(hierarchical_label "V_in 12V"
+		(shape input)
+		(at 72.39 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3de17f2c-24d7-4d6a-874c-ed1c9808784d")
+	)
+	(hierarchical_label "V_out 5V"
+		(shape input)
+		(at 222.25 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "503bd085-1430-4e33-b8c8-487b65a40f14")
+	)
+	(hierarchical_label "V_out 12V"
+		(shape input)
+		(at 220.98 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9a966cc9-49c0-4ab8-b633-ed6e4b09f53b")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "927e8af1-b9da-4da1-97d1-49a4842fba0a")
+		(property "Reference" "#PWR01"
+			(at 140.97 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "736a645e-1d9c-441b-9a2e-551f9990d383")
+		)
+		(instances
+			(project ""
+				(path "/ab4131a7-a0d6-45c6-bc67-998fde0ab2df/9b5ee279-9964-4a00-80eb-c0e1b72b9204"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 107.95)
+		(size 12.7 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "15b065c0-1c86-4cd3-9952-63d56ece1cc1")
+		(property "Sheetname" "Régulateur 11.1V-5V"
+			(at 170.18 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Régulateur 11.1V-5V.kicad_sch"
+			(at 170.18 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_in 11.1V" input
+			(at 170.18 110.49 180)
+			(uuid "566ba328-8242-4eea-aa71-74091ec0a621")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_out 5V" input
+			(at 182.88 114.3 0)
+			(uuid "b5380759-1080-447e-ac12-7ef16eb7c322")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Smartlock archi electro"
+				(path "/ab4131a7-a0d6-45c6-bc67-998fde0ab2df/9b5ee279-9964-4a00-80eb-c0e1b72b9204"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 96.52)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "432962c8-272c-49d8-b7c5-183fe57d213f")
+		(property "Sheetname" "BMS 3S"
+			(at 132.08 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BMS 3S.kicad_sch"
+			(at 132.08 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "P+" input
+			(at 135.89 96.52 90)
+			(uuid "ae39ba12-dd2c-4218-87cc-1f64d7b7a729")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P-" input
+			(at 140.97 106.68 270)
+			(uuid "e414c533-d1cf-42c3-9b15-2f1f9b9f5fd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Smartlock archi electro"
+				(path "/ab4131a7-a0d6-45c6-bc67-998fde0ab2df/9b5ee279-9964-4a00-80eb-c0e1b72b9204"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 96.52)
+		(size 15.24 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "48c222d5-c399-42fe-a8ce-6a807f6130ec")
+		(property "Sheetname" "Régulateur 12V-12.6V"
+			(at 83.82 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Régulateur 12V-12.6V.kicad_sch"
+			(at 83.82 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_in 12V" input
+			(at 83.82 99.06 180)
+			(uuid "f8332541-bdd0-43af-aa24-9dd35edc126c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_out 12.6V" input
+			(at 99.06 102.87 0)
+			(uuid "e59dd6a8-485d-4f21-ae30-511d19bc87fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Smartlock archi electro"
+				(path "/ab4131a7-a0d6-45c6-bc67-998fde0ab2df/9b5ee279-9964-4a00-80eb-c0e1b72b9204"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 121.92)
+		(size 13.97 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6dcade24-efca-4f8d-8b11-632156e1a8cd")
+		(property "Sheetname" "Régulateur 11.1V-12V"
+			(at 149.86 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Régulateur 11.1V-12V.kicad_sch"
+			(at 149.86 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_in 11.1V" input
+			(at 149.86 124.46 180)
+			(uuid "deb61383-7c58-4e25-a5cc-f7a5d0c52511")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_out 12V" input
+			(at 163.83 128.27 0)
+			(uuid "579f091e-0acb-4446-b684-1e3d63dc68c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Smartlock archi electro"
+				(path "/ab4131a7-a0d6-45c6-bc67-998fde0ab2df/9b5ee279-9964-4a00-80eb-c0e1b72b9204"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 81.28)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fbf8d517-6f5a-4176-bcf6-0e48555b57aa")
+		(property "Sheetname" "Regulateur 12V-5V"
+			(at 83.82 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Regulateur 12V-5V.kicad_sch"
+			(at 83.82 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_in 12V" input
+			(at 83.82 83.82 180)
+			(uuid "4b341f59-ac3e-4e30-ba99-4bc63a2e3bec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_out 5V" input
+			(at 96.52 88.9 0)
+			(uuid "e2d539c0-45f8-49e2-a96f-68dec2058a4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Smartlock archi electro"
+				(path "/ab4131a7-a0d6-45c6-bc67-998fde0ab2df/9b5ee279-9964-4a00-80eb-c0e1b72b9204"
+					(page "9")
+				)
+			)
+		)
+	)
+)
