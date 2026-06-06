@@ -10,6 +10,7 @@ Hub repository for the **DeVinci Fablab SmartLock** system, a badge-controlled c
 - [Overview](#overview)
 - [System architecture](#system-architecture)
 - [Components](#components)
+- [Design documentation](#design-documentation)
 - [Repository layout](#repository-layout)
 - [Getting started](#getting-started)
 - [Build & deployment](#build--deployment)
