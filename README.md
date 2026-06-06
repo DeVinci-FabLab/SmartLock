@@ -63,10 +63,29 @@ At runtime the Authentication-Authorization API sits in the middle. The dashboar
 | [**SmartLock-Reader**](https://github.com/DeVinci-FabLab/SmartLock-Reader) | [`submodules/SmartLock-Reader`](./submodules/SmartLock-Reader) | Standalone auxiliary NFC reader. Shows scanned badge UIDs on a small web page over its own WiFi access point, with a copy button, useful when you need a card's UID. | ESP8266 + PN532 · Arduino |
 | [**SmartLock-PCB**](https://github.com/DeVinci-FabLab/SmartLock-PCB) | [`submodules/SmartLock-PCB`](./submodules/SmartLock-PCB) | Custom electronics board for the locker hardware. | *Placeholder repo for now* |
 
+## Design documentation
+
+The `deliverables/` directory contains the full design record produced during the project, organized by phase.
+
+| Folder | Contents |
+|---|---|
+| [`deliverables/1_state_of_art/`](./deliverables/1_state_of_art) | Concept convergence, state-of-the-art analysis, archival process |
+| [`deliverables/2_detailed_design/`](./deliverables/2_detailed_design) | KiCAD schematics (PCB, power, NFC, Pi Zero 2W, lock driver…), component BOM, SolidWorks mechanical models, risk analysis |
+| [`deliverables/4_subsystem_tests/`](./deliverables/4_subsystem_tests) | Subsystem test plan and results |
+| [`deliverables/5_system_verification/`](./deliverables/5_system_verification) | System test report, user guide, maintenance guide, project retrospective (REX) |
+
+The `CAD/` directory holds two standalone SolidWorks parts (`Boitier_Ext.SLDPRT`, `Cover_Ecran.SLDPRT`) for the external enclosure and screen cover.
+
 ## Repository layout
 
 ```plain
 SmartLock/
+├── CAD/                  Standalone SolidWorks parts (enclosure, screen cover)
+├── deliverables/         Design and verification documents, organized by phase
+│   ├── 1_state_of_art/
+│   ├── 2_detailed_design/
+│   ├── 4_subsystem_tests/
+│   └── 5_system_verification/
 ├── docs/
 │   └── DEPLOYMENT.md     Meta build & deployment guide (start here to deploy)
 ├── submodules/           Each component, tracked on its main branch
